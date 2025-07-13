@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="oneone.css" />
+</head>
+<body>
+  <header>
+    <h1>Vikash Chaurasiya</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I'm Vikash, a web development enthusiast passionate about building user-friendly websites and learning new technologies.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      
+      <article class="project">
+        <h3>Cab Booking Portal</h3>
+        <p>A web app for corporate cab booking with role-based dashboards for vendors and admins. Built using React, Node.js, PostgreSQL.</p>
+      </article>
+
+      <article class="project">
+        <h3>Weather App</h3>
+        <p>A simple app that shows current weather using the OpenWeatherMap API. Built using HTML, CSS, and JavaScript.</p>
+      </article>
+
+      <article class="project">
+        <h3>Task Manager</h3>
+        <p>A basic to-do list application with add/edit/delete functionality. Made using vanilla JavaScript.</p>
+      </article>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Vikash Chaurasiya. All rights reserved.</p>
+  </footer>
+</body>
+</html>
